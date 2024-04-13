@@ -1,3 +1,5 @@
+/*     NAME: GAYATHRI K      
+*/
 #include <iostream>
 #include <cstring>
 using namespace std;
