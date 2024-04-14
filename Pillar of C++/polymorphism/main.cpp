@@ -177,6 +177,9 @@ class tri:public override{
 		}
 };
 
+
+//this shape class is called as abstract class due to pure virtual due to incomplete and it;s not possible to create object for this class
+
 class shape{
 	protected:
 		int width;
@@ -192,6 +195,9 @@ class shape{
 				cout<<"area of shape"<<endl;
 				return width*width; //don;t bother about formula
 			}
+			
+			//if the classs has no function then,
+			//virtual int h1()=0 // pure virtual function-- function withot implement
 };
 
 class circle:public shape{
@@ -273,6 +279,7 @@ int main() {
 	cout<<ptr->area()<<endl;
 	cout<<"----late binding----"<<endl;
 	cout<<"----virtual----"<<endl;
+//	virtual pointer
 	shape *s1=new circle();
 	cout<<s1->area()<<endl;
 	
