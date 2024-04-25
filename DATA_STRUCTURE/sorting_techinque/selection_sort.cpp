@@ -27,7 +27,7 @@ vector<int> selection_sort(vector<int>arr,int num)
 void print(vector <int> arr,int num)
  {
  	int i;
- 	cout<<"insertion_sorted:\n";
+ 	cout<<"selection_sorted:\n";
  	for(i=0;i<num;i++)
  	{
  		cout<<arr[i]<<" ";
