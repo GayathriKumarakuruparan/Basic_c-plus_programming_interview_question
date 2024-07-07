@@ -59,7 +59,7 @@ void student::display(){
     2.multilevel inheritance
     3.multiple inheritance
     4.herarchical inheritance
-    4.hybrid inheritance
+    5.hybrid inheritance
     
 */
 
